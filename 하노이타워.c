@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void HanoiTower(int n, char a, char b, char c);
+
 int main(void)
 {
 	int n = 4;	//원판 개수
