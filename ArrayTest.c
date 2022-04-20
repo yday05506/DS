@@ -47,11 +47,18 @@ int main(void)
 		}
 	}
 
+	for (i = 0; i < 5; i++) {
+		for (j = 0; j < 10; j++) {
+			printf("%c", b[i][j]);
+		}
+		printf("\n");
+	}
+
 	// 5번 출력
 	printf("5. 배열 b를 시계방향으로 90도 회전한 모양으로 출력하기\n");
 
-	for (i = 0; i < 5; i++) {
-		for (j = 9; j >= 0; j--) {
+	for (i = 0; i <= 9; i++) {
+		for (j = 4; j >= 0; j--) {
 			printf("%c", b[j][i]);
 		}
 		printf("\n");
